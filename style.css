@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.add_book {
+    display: flex;
+    background-color: #52525b;
+    width: 950px;
+    height: 70px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+}
+
+input {
+    margin-right: 20px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 5px;
+}
+
+h4 {
+    color: black;
+    margin-left: 10px;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#add {
+    height: 45px;
+    width: 50px;
+    margin-right: 450px;
+    margin-top: 10px;
+    background-color: #fbbf24;
+    border-radius: 40px;
+    border: none;    
+}
+
+#add i {
+    font-size: 40px;
+}
+
+
+
+h2 {
+    margin: 0px 20px 10px 940px;
+    font-size: 35px;
+}
+
+header {
+    height: 160px;
+    background-color: #fbbf24;
+    padding-top: 10px;
+}
+
+.all_cards {
+    padding: 70px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@keyframes delete {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.card {
+    height: 220px;
+    width:300px;
+    background-color: #fbbf24;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+    margin-right: 40px;
+    margin-bottom: 40px;
+    animation-name: delete;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+
+.false {
+    width: 80px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: #84cc16 ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+
+.true {
+    width: 80px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: red ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+
+.button2 {
+    width: 80px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: black ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    font-size: 20px;
+    margin-left: 70px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.button2:hover {
+    transform: scale(1.2);
+}
+
+.false:focus {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.true:focus {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.true:focus {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.false:focus {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.true:hover {
+    transform: scale(1.2);
+
+}
+
+.false:hover {
+    transform: scale(1.2);
+
+}
+

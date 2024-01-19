@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library</title>
+</head>
+<body>
+    <header>
+        <h2>Library</h2>
+        <form action="">
+            <div class="add_book">
+                <h4>Title</h4>
+                <input type="text" autocomplete="off" id="title" required>
+                <h4>Author</h4>
+                <input type="text" autocomplete="off" required id="author" required>
+                <h4>Pages</h4>
+                <input type="number" autocomplete="off" required id="pages" required>
+                <h4>read</h4>
+                <input type="checkbox" id="read">
+            </div>
+            <button type="submit" id="add"><i class='bx bx-plus'></i></button>
+        </form>
+    </header>
+    <div class="all_cards" data-book-count="0">
+        <div class="card">
+            <h3>Stormligth archive</h3>
+            <h4>by Brandon Sanderson</h4>
+            <h4>1000 pages</h4>
+            <div class="buttons">
+                <button class="false" data-read="false" id="button1">read</button>
+                <button class="button2" id="button2">delete</button>
+            </div>
+        </div>
+    </div>
+    <script src="library.js"></script>
+</body>
+</html>
